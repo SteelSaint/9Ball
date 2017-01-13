@@ -8,7 +8,7 @@
 
 #include <Servo.h> //Servo library
 Servo myservo;
-int LED=13,in1=9, in2=8, in3=7, in4=6, ENA=10, ENB=5, ABS=130, Echo = A4, Trig = A5, rightDistance = 0,leftDistance = 0,middleDistance = 0 ;
+int LED=13,in1=9, in2=8, in3=7, in4=6, ENA=11, ENB=5, ABS=130, Echo = A4, Trig = A5, rightDistance = 0,leftDistance = 0,middleDistance = 0 ;
 volatile int state = LOW;
 char getstate;
 /*
